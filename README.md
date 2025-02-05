@@ -10,3 +10,5 @@ This is a very good course, I suggest you pay and take the course on Udemy
 To Start:
 - colcon build
 - . ./install/setup.zsh # or what every is your favorite shell
+- ./doit-launch
+
