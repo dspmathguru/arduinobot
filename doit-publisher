@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+ros2 run robot_state_publisher robot_state_publisher \
+  --ros-args \
+  -p robot_description:="$(xacro $PWD/src/arduinobot_description/urdf/arduinobot.urdf.xacro)"

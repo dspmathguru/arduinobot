@@ -1,0 +1,243 @@
+[0.107s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.107s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=48, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75519184e930>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7551919a2540>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7551919a2540>>, mixin_verb=('build',))
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.470s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_cpp_examples) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_cpp_examples) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_cpp_examples) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_cpp_examples) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_cpp_examples) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_cpp_examples) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_cpp_examples) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_cpp_examples) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'arduinobot_cpp_examples' with type 'ros.ament_cmake' and name 'arduinobot_cpp_examples'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_description) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_description) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_description) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_description) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_description) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_description) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_description) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_description) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'arduinobot_description' with type 'ros.ament_cmake' and name 'arduinobot_description'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_py_examples) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_py_examples) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_py_examples) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_py_examples) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_py_examples) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_py_examples) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_py_examples) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(arduinobot_py_examples) by extension 'ros'
+[0.493s] DEBUG:colcon.colcon_core.package_identification:Package 'arduinobot_py_examples' with type 'ros.ament_python' and name 'arduinobot_py_examples'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.507s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install
+[0.509s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 396 installed packages in /opt/ros/jazzy
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.553s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples', 'merge_install': False, 'path': '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_target' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.553s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description', 'merge_install': False, 'path': '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_description', 'symlink_install': False, 'test_result_base': None}
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.553s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples', 'merge_install': False, 'path': '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.553s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.555s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_cpp_examples' with build type 'ament_cmake'
+[0.555s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_cpp_examples'
+[0.556s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.560s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_description' with build type 'ament_cmake'
+[0.560s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_description'
+[0.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.563s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_py_examples' with build type 'ament_python'
+[0.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_py_examples', 'ament_prefix_path')
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/ament_prefix_path.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/ament_prefix_path.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/ament_prefix_path.sh'
+[0.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_cpp_examples -DCMAKE_INSTALL_PREFIX=/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples
+[0.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description
+[0.770s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_py_examples'
+[0.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description
+[1.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description -- -j48 -l48
+[1.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_py_examples': PYTHONPATH=/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build install --record /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[1.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description -- -j48 -l48
+[1.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --install /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description
+[1.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_description)
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --install /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_description
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description' for CMake module files
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description' for CMake config files
+[1.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_description', 'cmake_prefix_path')
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.ps1'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.sh'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/bin'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/lib/pkgconfig/arduinobot_description.pc'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/lib/python3.12/site-packages'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/bin'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.sh'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.bash'
+[1.519s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.zsh'
+[1.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/colcon-core/packages/arduinobot_description)
+[1.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_description)
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description' for CMake module files
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description' for CMake config files
+[1.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_description', 'cmake_prefix_path')
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.ps1'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.dsv'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.sh'
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/bin'
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/lib/pkgconfig/arduinobot_description.pc'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/lib/python3.12/site-packages'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/bin'
+[1.525s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.ps1'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.dsv'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.sh'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.bash'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/arduinobot_description/package.zsh'
+[1.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_description/share/colcon-core/packages/arduinobot_description)
+[1.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_cpp_examples -DCMAKE_INSTALL_PREFIX=/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples
+[1.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples -- -j48 -l48
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples' for CMake module files
+[2.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_py_examples' returned '0': PYTHONPATH=/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build install --record /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples' for CMake config files
+[2.008s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/bin'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/pkgconfig/arduinobot_py_examples.pc'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages'
+[2.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_py_examples', 'pythonpath')
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/pythonpath.ps1'
+[2.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/pythonpath.dsv'
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/pythonpath.sh'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/bin'
+[2.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_py_examples)
+[2.012s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/package.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/package.dsv'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/package.sh'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/package.bash'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples/package.zsh'
+[2.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/colcon-core/packages/arduinobot_py_examples)
+[7.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples -- -j48 -l48
+[7.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --install /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples
+[7.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_cpp_examples)
+[7.749s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples' for CMake module files
+[7.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rjjt/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --install /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_cpp_examples
+[7.750s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples' for CMake config files
+[7.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_cpp_examples', 'cmake_prefix_path')
+[7.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.ps1'
+[7.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.dsv'
+[7.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.sh'
+[7.753s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/lib'
+[7.753s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/bin'
+[7.753s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/lib/pkgconfig/arduinobot_cpp_examples.pc'
+[7.753s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/lib/python3.12/site-packages'
+[7.753s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/bin'
+[7.754s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.ps1'
+[7.754s] INFO:colcon.colcon_core.shell:Creating package descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv'
+[7.755s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.sh'
+[7.755s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.bash'
+[7.756s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.zsh'
+[7.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/colcon-core/packages/arduinobot_cpp_examples)
+[7.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_cpp_examples)
+[7.757s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples' for CMake module files
+[7.758s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples' for CMake config files
+[7.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_cpp_examples', 'cmake_prefix_path')
+[7.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.ps1'
+[7.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.dsv'
+[7.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.sh'
+[7.760s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/lib'
+[7.760s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/bin'
+[7.760s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/lib/pkgconfig/arduinobot_cpp_examples.pc'
+[7.761s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/lib/python3.12/site-packages'
+[7.761s] Level 1:colcon.colcon_core.environment:checking '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/bin'
+[7.761s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.ps1'
+[7.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv'
+[7.762s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.sh'
+[7.763s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.bash'
+[7.763s] INFO:colcon.colcon_core.shell:Creating package script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.zsh'
+[7.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_cpp_examples/share/colcon-core/packages/arduinobot_cpp_examples)
+[7.764s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.765s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.765s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.765s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.774s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.788s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/local_setup.ps1'
+[7.789s] INFO:colcon.colcon_core.shell:Creating prefix util module '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/_local_setup_util_ps1.py'
+[7.791s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/setup.ps1'
+[7.792s] INFO:colcon.colcon_core.shell:Creating prefix script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/local_setup.sh'
+[7.793s] INFO:colcon.colcon_core.shell:Creating prefix util module '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/_local_setup_util_sh.py'
+[7.793s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/setup.sh'
+[7.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/local_setup.bash'
+[7.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/setup.bash'
+[7.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/local_setup.zsh'
+[7.797s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/setup.zsh'

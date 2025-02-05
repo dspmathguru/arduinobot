@@ -1,0 +1,41 @@
+[0.872s] Invoking command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_py_examples': PYTHONPATH=/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build install --record /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[1.141s] running egg_info
+[1.141s] creating ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info
+[1.164s] writing ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[1.164s] writing dependency_links to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[1.164s] writing entry points to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[1.164s] writing requirements to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[1.164s] writing top-level names to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[1.165s] writing manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.210s] reading manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.211s] writing manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.211s] running build
+[1.211s] running build_py
+[1.211s] creating /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build
+[1.211s] creating /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build/lib
+[1.211s] creating /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.211s] copying arduinobot_py_examples/simple_subscriber.py -> /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.212s] copying arduinobot_py_examples/__init__.py -> /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.212s] copying arduinobot_py_examples/simple_publisher.py -> /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.212s] running install
+[1.217s] running install_lib
+[1.240s] creating /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.240s] copying /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_subscriber.py -> /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.241s] copying /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/__init__.py -> /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.241s] copying /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_publisher.py -> /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.241s] byte-compiling /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_subscriber.py to simple_subscriber.cpython-312.pyc
+[1.241s] byte-compiling /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__init__.py to __init__.cpython-312.pyc
+[1.241s] byte-compiling /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_publisher.py to simple_publisher.cpython-312.pyc
+[1.242s] running install_data
+[1.242s] creating /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/ament_index
+[1.242s] creating /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/ament_index/resource_index
+[1.242s] creating /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.242s] copying resource/arduinobot_py_examples -> /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.243s] copying package.xml -> /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/share/arduinobot_py_examples
+[1.243s] running install_egg_info
+[1.267s] Copying ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info
+[1.268s] running install_scripts
+[1.422s] Installing simple_publisher script to /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.422s] Installing simple_subscriber script to /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.422s] writing list of installed files to '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/install.log'
+[1.443s] Invoked command in '/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/arduinobot_py_examples' returned '0': PYTHONPATH=/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/build install --record /db1/Dropbox/Engineering/Udemy/Learn-by-Doing--Manipulators/arduinobot_ws/src/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
