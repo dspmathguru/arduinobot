@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+ros2 launch arduinobot_description gazebo.launch.py
+
